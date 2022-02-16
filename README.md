@@ -35,3 +35,4 @@ Once the JAR file is built, you can run it using
 - Find Add-ons at [vaadin.com/directory](https://vaadin.com/directory).
 - Ask questions on [Stack Overflow](https://stackoverflow.com/questions/tagged/vaadin) or join our [Discord channel](https://discord.gg/MYFq5RTbBn).
 - Report issues, create pull requests in [GitHub](https://github.com/vaadin/platform).
+
