@@ -1,6 +1,6 @@
 {
-  "name": "no-name",
   "license": "UNLICENSED",
+  "name": "no-name",
   "dependencies": {
     "@polymer/iron-icon": "3.0.1",
     "@polymer/iron-list": "3.1.0",
@@ -106,9 +106,11 @@
     "@vaadin/virtual-list": "22.0.4",
     "construct-style-sheets-polyfill": "3.0.4",
     "date-fns": "2.23.0",
+    "line-awesome": "1.3.0",
     "lit": "2.0.0"
   },
   "devDependencies": {
+    "@rollup/plugin-node-resolve": "^11.2.0",
     "@vaadin/application-theme-plugin": "./target/plugins/application-theme-plugin",
     "@vaadin/build-status-plugin": "./target/plugins/build-status-plugin",
     "@vaadin/theme-live-reload-plugin": "./target/plugins/theme-live-reload-plugin",
@@ -125,6 +127,8 @@
     "html-webpack-plugin": "4.5.1",
     "lit-css-loader": "0.1.0",
     "loader-utils": "2.0.0",
+    "rollup-plugin-lit-css": "^2.1.0",
+    "rollup-plugin-styles": "^3.14.1",
     "typescript": "4.4.3",
     "webpack": "4.46.0",
     "webpack-cli": "4.9.0",
@@ -239,6 +243,7 @@
       "@vaadin/virtual-list": "22.0.4",
       "construct-style-sheets-polyfill": "3.0.4",
       "date-fns": "2.23.0",
+      "line-awesome": "1.3.0",
       "lit": "2.0.0"
     },
     "devDependencies": {
@@ -263,6 +268,6 @@
       "workbox-precaching": "6.4.2",
       "workbox-webpack-plugin": "6.4.2"
     },
-    "hash": "71648ff5a79081dc4777e8494735033fc1cb2a901c120df2a273b2922e2fce3e"
+    "hash": "4983a59fefad857243d744552467f376e062cb50af678e9aff281593fa7078aa"
   }
 }
