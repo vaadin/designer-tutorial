@@ -1,6 +1,4 @@
-# Vaadin Designer Tutorial
-
-This project is the completed application covered in the [Vaadin Designer Tutorial](https://vaadin.com/docs/latest/tools/designer/getting-started).
+is project is the completed application covered in the [Vaadin Designer Tutorial](https://vaadin.com/docs/latest/tools/designer/getting-started).
 
 ## Running the application
 
