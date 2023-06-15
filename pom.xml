@@ -10,14 +10,14 @@
     <packaging>jar</packaging>
 
     <properties>
-        <java.version>11</java.version>
-        <vaadin.version>23.3.11</vaadin.version>
+        <java.version>17</java.version>
+        <vaadin.version>24.1.0</vaadin.version>
     </properties>
 
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>2.7.8</version>
+        <version>3.1.0</version>
     </parent>
 
     <repositories>
@@ -89,7 +89,7 @@
         <dependency>
             <groupId>com.vaadin</groupId>
             <artifactId>exampledata</artifactId>
-            <version>4.1.0</version>
+            <version>6.2.0</version>
         </dependency>
 
         <dependency>
@@ -193,9 +193,6 @@
                                 <phase>compile</phase>
                             </execution>
                         </executions>
-                        <configuration>
-                            <productionMode>true</productionMode>
-                        </configuration>
                     </plugin>
                 </plugins>
             </build>
