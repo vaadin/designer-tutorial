@@ -1,10 +1,10 @@
 import { LitElement, html, css, customElement } from 'lit-element';
-import '@vaadin/vaadin-form-layout/src/vaadin-form-layout.js';
-import '@vaadin/vaadin-text-field/src/vaadin-text-field.js';
-import '@vaadin/vaadin-combo-box/src/vaadin-combo-box.js';
-import '@vaadin/vaadin-text-field/src/vaadin-email-field.js';
-import '@vaadin/vaadin-ordered-layout/src/vaadin-horizontal-layout.js';
-import '@vaadin/vaadin-button/src/vaadin-button.js';
+import '@vaadin/form-layout/src/vaadin-form-layout.js';
+import '@vaadin/text-field/src/vaadin-text-field.js';
+import '@vaadin/combo-box/src/vaadin-combo-box.js';
+import '@vaadin/email-field/src/vaadin-email-field.js';
+import '@vaadin/horizontal-layout/src/vaadin-horizontal-layout.js';
+import '@vaadin/button/src/vaadin-button.js';
 
 @customElement('contact-form')
 export class ContactForm extends LitElement {

@@ -1,9 +1,9 @@
 import { LitElement, html, css, customElement } from 'lit-element';
-import '@vaadin/vaadin-ordered-layout/src/vaadin-vertical-layout.js';
-import '@vaadin/vaadin-ordered-layout/src/vaadin-horizontal-layout.js';
-import '@vaadin/vaadin-text-field/src/vaadin-text-field.js';
-import '@vaadin/vaadin-button/src/vaadin-button.js';
-import '@vaadin/vaadin-grid/src/vaadin-grid.js';
+import '@vaadin/vertical-layout/src/vaadin-vertical-layout.js';
+import '@vaadin/horizontal-layout/src/vaadin-horizontal-layout.js';
+import '@vaadin/text-field/src/vaadin-text-field.js';
+import '@vaadin/button/src/vaadin-button.js';
+import '@vaadin/grid/src/vaadin-grid.js';
 import './contact-form';
 
 @customElement('main-view')
