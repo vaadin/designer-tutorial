@@ -1,4 +1,5 @@
-import { LitElement, html, css, customElement } from 'lit-element';
+import { LitElement, html, css} from 'lit-element';
+import { customElement } from 'lit/decorators.js';
 import '@vaadin/form-layout/src/vaadin-form-layout.js';
 import '@vaadin/text-field/src/vaadin-text-field.js';
 import '@vaadin/combo-box/src/vaadin-combo-box.js';
